@@ -19,7 +19,7 @@ function Navbar() {
             <nav className='navbar'>
                 <Link to='/' 
                     className='navbar-logo'>
-                    EPIC <i className='fab fa-firstdraft' />
+                    PAGE <i className='fab fa-freebsd' />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
