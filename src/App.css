@@ -6,8 +6,8 @@
   }
   
   .home,
-  .products,
-  .contact-us {
+  .first-page,
+  .second-page {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -25,7 +25,7 @@
   }
   
   
-  .products {
+  .first-page {
     background-image: url('./images/img-3.jpg');
     background-position: center;
     background-size: fill;
@@ -34,7 +34,7 @@
     font-size: 100px;
   }
   
-  .contact-us {
+  .second-page {
     background-image: url('./images/img-4.jpg');
     background-position: center;
     background-size: cover;

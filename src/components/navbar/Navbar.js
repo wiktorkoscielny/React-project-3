@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
+
 function Navbar() {
 
     const [click, setClick] = useState(false);
@@ -33,14 +34,14 @@ function Navbar() {
                     </li>
 
                     <li className='nav-item'>
-                        <Link to='/search-page' className='nav-links' onClick={closeMobileMenu}>
-                            Search
+                        <Link to='/first-page' className='nav-links' onClick={closeMobileMenu}>
+                            First Page
                         </Link>
                     </li>
 
                     <li className='nav-item'>
-                        <Link to='/employee-page' className='nav-links' onClick={closeMobileMenu}>
-                            Add Employee
+                        <Link to='/second-page' className='nav-links' onClick={closeMobileMenu}>
+                            Second Page
                         </Link>
                     </li>
 
