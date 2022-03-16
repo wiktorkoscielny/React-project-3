@@ -8,9 +8,9 @@ import {
   Link,
   Outlet
 } from "react-router-dom";
-import Home from './components/pages/Home'
-import FirstPage from './components/pages/FirstPage'
-import SecondPage from './components/pages/SecondPage'
+import Home from './pages/Home'
+import FirstPage from './pages/FirstPage'
+import SecondPage from './pages/SecondPage'
 
 
 function App() {
